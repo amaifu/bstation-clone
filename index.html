@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bstation Clone</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
@@ -33,28 +33,38 @@
         </div>
     </header>
     <aside>
-        <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-            <li><a href="#"><i class="fa-solid fa-tv"></i>Anime</a></li>
-            <li><a href="#"><i class="fa-solid fa-fire-flame-curved"></i>Trending</a></li>
-            <li><a href="#"><i class="fa-solid fa-filter"></i>Category</a></li>
-            <li><a href="#"><i class="fa-regular fa-calendar"></i>LIVE</a></li>
+        <ul class="nav">
+            <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-tv"></i><span>Anime</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-fire-flame-curved"></i><span>Trending</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-filter"></i><span>Category</span></a></li>
+            <li><a href="#"><i class="fa-regular fa-calendar"></i><span>LIVE</span></a></li>
         </ul>
+        <div class="nav-collapse">
+            <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-tv"></i><span>Anime</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-fire-flame-curved"></i><span>Trending</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-filter"></i><span>Category</span></a></li>
+            <li><a href="#"><i class="fa-regular fa-calendar"></i><span>LIVE</span></a></li>
+        </div>
         <div class="login-suggestion">
             <p>Log in to view your "Followed" content.</p>
             <button class="login-button">Log in</button>
         </div>
         <footer>
-            <a href="#">About us</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Get App</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privact Policy</a><br>
-            <a href="#">Infringement Complaint</a>
+            <div class="footer-menu">
+                <a href="#">About us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Get App</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privact Policy</a><br>
+                <a href="#">Infringement Complaint</a>    
+            </div>
             <p class="copyright">© 2023 Bstation Clone</p>
         </footer>
     </aside>
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/hamburgerMenu.js"></script>
 </body>
 </html>
